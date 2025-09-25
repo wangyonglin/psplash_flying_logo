@@ -190,6 +190,8 @@ done
 #define BAR_IMG_BYTES_PER_PIXEL(4)
 ```
 ### .将psplash.sh软链接在根文件系统/etc/rcS.d/目录下，用于开机启动。
+拷贝psplash，psplash-write到板卡/usr/bin目录
+拷贝S00psplash.sh到板卡/etc/rcS.d目录，实现logo开机自启动
 ### 参考文章：
     https://blog.csdn.net/al86866365/article/details/82287020
     https://blog.csdn.net/chidaoqi1607/article/details/105840790
